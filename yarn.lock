@@ -931,6 +931,31 @@
   dependencies:
     ckeditor5 "^30.0.0"
 
+"@ckeditor/ckeditor5-build-balloon@^30.0.0":
+  version "30.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-build-balloon/-/ckeditor5-build-balloon-30.0.0.tgz#e73260aa6cb3ac0458ded4514bcba8ee8172a2ca"
+  integrity sha512-NX7EaGUL2KFidnTyiPrkt36f+xHsp162Qs/VTvTBAaIT1LPNcwTf2YnoEVqDGV0enOcuHlnur0TrT+Msn5pRqg==
+  dependencies:
+    "@ckeditor/ckeditor5-adapter-ckfinder" "^30.0.0"
+    "@ckeditor/ckeditor5-autoformat" "^30.0.0"
+    "@ckeditor/ckeditor5-basic-styles" "^30.0.0"
+    "@ckeditor/ckeditor5-block-quote" "^30.0.0"
+    "@ckeditor/ckeditor5-ckfinder" "^30.0.0"
+    "@ckeditor/ckeditor5-cloud-services" "^30.0.0"
+    "@ckeditor/ckeditor5-easy-image" "^30.0.0"
+    "@ckeditor/ckeditor5-editor-balloon" "^30.0.0"
+    "@ckeditor/ckeditor5-essentials" "^30.0.0"
+    "@ckeditor/ckeditor5-heading" "^30.0.0"
+    "@ckeditor/ckeditor5-image" "^30.0.0"
+    "@ckeditor/ckeditor5-indent" "^30.0.0"
+    "@ckeditor/ckeditor5-link" "^30.0.0"
+    "@ckeditor/ckeditor5-list" "^30.0.0"
+    "@ckeditor/ckeditor5-media-embed" "^30.0.0"
+    "@ckeditor/ckeditor5-paragraph" "^30.0.0"
+    "@ckeditor/ckeditor5-paste-from-office" "^30.0.0"
+    "@ckeditor/ckeditor5-table" "^30.0.0"
+    "@ckeditor/ckeditor5-typing" "^30.0.0"
+
 "@ckeditor/ckeditor5-build-classic@^30.0.0":
   version "30.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-build-classic/-/ckeditor5-build-classic-30.0.0.tgz#70d978c6d343ca5f5b8f04bf46c9225fe127edcd"
@@ -997,6 +1022,14 @@
   integrity sha512-DN61WygBsUYwLbCsogHj7gUs+tFk51kZ1C3+f7o/eVSr/11aQ7KhLvcnXQ7b5rQnhiBqJCJoXb9A9WL1Xg3dxQ==
   dependencies:
     ckeditor5 "^30.0.0"
+
+"@ckeditor/ckeditor5-editor-balloon@^30.0.0":
+  version "30.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-editor-balloon/-/ckeditor5-editor-balloon-30.0.0.tgz#1c054bf631fff3ff22e68b197c973cfefe28ec6d"
+  integrity sha512-xYxetUGXArt9+RGzWL3sulxkyMeabs1qNeAq7uSrfn89dN2W2SQJqgPzDHPPOe2PXngZjg4pNHIcrbYccQj1Vw==
+  dependencies:
+    ckeditor5 "^30.0.0"
+    lodash-es "^4.17.15"
 
 "@ckeditor/ckeditor5-editor-classic@^30.0.0":
   version "30.0.0"
@@ -1109,6 +1142,13 @@
   dependencies:
     ckeditor5 "^30.0.0"
     lodash-es "^4.17.15"
+
+"@ckeditor/ckeditor5-theme-lark@^30.0.0":
+  version "30.0.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-theme-lark/-/ckeditor5-theme-lark-30.0.0.tgz#118fffc528f7bd84dd061d6bb438e03f307ba25b"
+  integrity sha512-QXTUK2ngVtTEflfPipRRQNnkBiZcIxX4itVbCWU22m2K71C2Nv5NsdXjQTtdk2C1J8aEJ2zCEdBVZ/gMs9csvw==
+  dependencies:
+    "@ckeditor/ckeditor5-ui" "^30.0.0"
 
 "@ckeditor/ckeditor5-typing@^30.0.0":
   version "30.0.0"

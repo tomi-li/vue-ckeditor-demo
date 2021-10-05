@@ -6,7 +6,8 @@
 </template>
 
 <script>
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import BalloonEditor from '@ckeditor/ckeditor5-build-balloon';
+
 import CKEditor from "@ckeditor/ckeditor5-vue2";
 
 export default {
@@ -16,8 +17,8 @@ export default {
   },
   data() {
     return {
-      editor: ClassicEditor,
-      editorData: '<p>Content of the editor.</p>',
+      editor: BalloonEditor,
+      editorData: '<p>Tomi Test.</p>',
       editorConfig: {
         // The configuration of the editor.
       }
